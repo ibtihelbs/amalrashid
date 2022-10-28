@@ -1,0 +1,25 @@
+[debug] [2022-10-28T13:51:53.346Z] ----------------------------------------------------------------------
+[debug] [2022-10-28T13:51:53.350Z] Command:       C:\node32\node.exe C:\node32\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-10-28T13:51:53.351Z] CLI Version:   11.15.0
+[debug] [2022-10-28T13:51:53.351Z] Platform:      win32
+[debug] [2022-10-28T13:51:53.351Z] Node Version:  v16.14.2
+[debug] [2022-10-28T13:51:53.352Z] Time:          Fri Oct 28 2022 15:51:53 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2022-10-28T13:51:53.353Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-28T13:51:53.497Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-28T13:51:53.498Z] > authorizing via signed-in user (ibtihel228bensalah@gmail.com)
+[debug] [2022-10-28T13:51:53.498Z] [iam] checking project amalarrrashid for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-10-28T13:51:53.503Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/amalarrrashid:testIamPermissions [none]
+[debug] [2022-10-28T13:51:53.503Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/amalarrrashid:testIamPermissions x-goog-quota-user=projects/amalarrrashid
+[debug] [2022-10-28T13:51:53.503Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/amalarrrashid:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-10-28T13:51:54.880Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/amalarrrashid:testIamPermissions 200
+[debug] [2022-10-28T13:51:54.882Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/amalarrrashid:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-10-28T13:51:54.886Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/amalarrrashid [none]
+[debug] [2022-10-28T13:51:55.396Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/amalarrrashid 200
+[debug] [2022-10-28T13:51:55.397Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/amalarrrashid {"projectId":"amalarrrashid","projectNumber":"435158621137","displayName":"amalarrrashid","name":"projects/amalarrrashid","resources":{"hostingSite":"amalarrrashid","storageBucket":"amalarrrashid.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_d84ee778-b738-43af-8b89-9f6a7e175420"}
+[debug] [2022-10-28T13:51:59.008Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/amalarrrashid/sites pageToken=&pageSize=10
+[debug] [2022-10-28T13:52:00.368Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/amalarrrashid/sites 200
+[debug] [2022-10-28T13:52:00.369Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/amalarrrashid/sites {"sites":[{"name":"projects/amalarrrashid/sites/amalarrrashid","defaultUrl":"https://amalarrrashid.web.app","appId":"1:435158621137:web:0fd9830b00b2996f381ef0","type":"DEFAULT_SITE"}]}
+[debug] [2022-10-28T13:52:00.371Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:435158621137:web:0fd9830b00b2996f381ef0/config [none]
+[debug] [2022-10-28T13:52:01.260Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:435158621137:web:0fd9830b00b2996f381ef0/config 200
+[debug] [2022-10-28T13:52:01.261Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:435158621137:web:0fd9830b00b2996f381ef0/config {"projectId":"amalarrrashid","appId":"1:435158621137:web:0fd9830b00b2996f381ef0","storageBucket":"amalarrrashid.appspot.com","locationId":"us-central","apiKey":"AIzaSyAxl37XByqM3gfNXYF1wy1HphXPE6h9MDc","authDomain":"amalarrrashid.firebaseapp.com","messagingSenderId":"435158621137"}
