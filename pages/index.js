@@ -8,7 +8,6 @@ import Goals from '../Components/Goals'
 import { BlogContext } from '../Context/BlogContext'
 import { useContext } from 'react'
 export default function Home() {
-  const sharp = require('sharp');
   const {posts, users} = useContext(BlogContext)
   return (
     <div className='scroll-smooth p-5 bg-gray-light'>
