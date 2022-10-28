@@ -1,0 +1,63 @@
+[debug] [2022-10-28T14:37:47.469Z] ----------------------------------------------------------------------
+[debug] [2022-10-28T14:37:47.473Z] Command:       C:\node32\node.exe C:\node32\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-10-28T14:37:47.475Z] CLI Version:   11.15.0
+[debug] [2022-10-28T14:37:47.475Z] Platform:      win32
+[debug] [2022-10-28T14:37:47.476Z] Node Version:  v16.14.2
+[debug] [2022-10-28T14:37:47.549Z] Time:          Fri Oct 28 2022 16:37:47 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2022-10-28T14:37:47.550Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-28T14:37:47.556Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as ibtihel228bensalah@gmail.com
+[debug] [2022-10-28T14:37:54.974Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-10-28T14:37:54.979Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-10-28T14:37:57.840Z] Error: Timed out.
+    at Timeout._onTimeout (C:\node32\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-10-28T14:41:06.675Z] ----------------------------------------------------------------------
+[debug] [2022-10-28T14:41:06.679Z] Command:       C:\node32\node.exe C:\node32\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-10-28T14:41:06.680Z] CLI Version:   11.15.0
+[debug] [2022-10-28T14:41:06.680Z] Platform:      win32
+[debug] [2022-10-28T14:41:06.680Z] Node Version:  v16.14.2
+[debug] [2022-10-28T14:41:06.681Z] Time:          Fri Oct 28 2022 16:41:06 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2022-10-28T14:41:06.682Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as ibtihel228bensalah@gmail.com
+[debug] [2022-10-28T14:41:14.579Z] Error: Timed out.
+    at Timeout.<anonymous> (C:\node32\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-10-28T14:42:39.481Z] ----------------------------------------------------------------------
+[debug] [2022-10-28T14:42:39.484Z] Command:       C:\node32\node.exe C:\node32\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-10-28T14:42:39.485Z] CLI Version:   11.15.0
+[debug] [2022-10-28T14:42:39.486Z] Platform:      win32
+[debug] [2022-10-28T14:42:39.486Z] Node Version:  v16.14.2
+[debug] [2022-10-28T14:42:39.487Z] Time:          Fri Oct 28 2022 16:42:39 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2022-10-28T14:42:39.488Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-28T14:42:39.631Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-28T14:42:39.632Z] > authorizing via signed-in user (ibtihel228bensalah@gmail.com)
+[debug] [2022-10-28T14:42:39.632Z] [iam] checking project amalarrrashid for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-10-28T14:42:39.635Z] > refreshing access token with scopes: []
+[debug] [2022-10-28T14:42:39.639Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-10-28T14:42:39.639Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-28T14:43:08.052Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-10-28T14:43:08.054Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-28T14:43:08.131Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/amalarrrashid:testIamPermissions [none]
+[debug] [2022-10-28T14:43:08.131Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/amalarrrashid:testIamPermissions x-goog-quota-user=projects/amalarrrashid
+[debug] [2022-10-28T14:43:08.132Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/amalarrrashid:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-10-28T14:43:10.681Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/amalarrrashid:testIamPermissions 200
+[debug] [2022-10-28T14:43:10.682Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/amalarrrashid:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-10-28T14:43:10.688Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/amalarrrashid [none]
+[debug] [2022-10-28T14:43:11.238Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/amalarrrashid 200
+[debug] [2022-10-28T14:43:11.239Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/amalarrrashid {"projectId":"amalarrrashid","projectNumber":"435158621137","displayName":"amalarrrashid","name":"projects/amalarrrashid","resources":{"hostingSite":"amalarrrashid","storageBucket":"amalarrrashid.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_d84ee778-b738-43af-8b89-9f6a7e175420"}
+[debug] [2022-10-28T14:43:27.653Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/amalarrrashid/sites pageToken=&pageSize=10
+[debug] [2022-10-28T14:43:39.694Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/amalarrrashid/sites 200
+[debug] [2022-10-28T14:43:39.695Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/amalarrrashid/sites {"sites":[{"name":"projects/amalarrrashid/sites/amalarrrashid","defaultUrl":"https://amalarrrashid.web.app","appId":"1:435158621137:web:0fd9830b00b2996f381ef0","type":"DEFAULT_SITE"}]}
+[debug] [2022-10-28T14:43:39.697Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:435158621137:web:0fd9830b00b2996f381ef0/config [none]
+[debug] [2022-10-28T14:43:40.674Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:435158621137:web:0fd9830b00b2996f381ef0/config 200
+[debug] [2022-10-28T14:43:40.675Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:435158621137:web:0fd9830b00b2996f381ef0/config {"projectId":"amalarrrashid","appId":"1:435158621137:web:0fd9830b00b2996f381ef0","storageBucket":"amalarrrashid.appspot.com","locationId":"us-central","apiKey":"AIzaSyAxl37XByqM3gfNXYF1wy1HphXPE6h9MDc","authDomain":"amalarrrashid.firebaseapp.com","messagingSenderId":"435158621137"}
